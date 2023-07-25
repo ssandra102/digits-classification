@@ -19,6 +19,7 @@ jobs:
         run: |
           pip install -r requirements.txt
           python model.py
+          echo "workflow completed"
       # - name: Write CML report
       #   env:
       #     REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
